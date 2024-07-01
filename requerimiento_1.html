@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Imagen con borde toggle</title>
+  <link rel="stylesheet" href="assets/css/stylesheet.css">
+</head>
+<body>
+  <img id="imagen" src="https://picsum.photos/id/237/200/200" onclick="toggleBorde()">
+  <script>
+    function toggleBorde() {
+      var imagen = document.getElementById("imagen");
+      imagen.classList.toggle("borde-rojo");
+    }
+  </script>
+</body>
+</html>
